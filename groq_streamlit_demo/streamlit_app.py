@@ -18,7 +18,7 @@ icon("🏎️")
 st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
 
 client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"],
+    api_key=st.secrets["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"],
 )
 
 # Initialize chat history and selected model
