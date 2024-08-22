@@ -13,9 +13,9 @@ def icon(emoji: str):
     )
 
 
-icon("🏎️")
+#icon("🏎️")
 
-st.subheader("Groq Chat Streamlit App", divider="rainbow", anchor=False)
+st.subheader("Chats App", divider="rainbow", anchor=False)
 
 client = Groq(
     api_key=st.secrets["GROQ_API_KEY"],
